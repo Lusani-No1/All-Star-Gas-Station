@@ -5,86 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 </head>
+<!--Background-->
     <body style="background-image: url(../Assast/Logo.png);background-size: cover;background-position: center;background-repeat: no-repeat;background-attachment: fixed;">
         <header>
             <div style="text-align: center;">
+                <!--Navigation-->
                 <nav>
+                    <span style="background-color: white;">
                     <a href="../index.html">Home</a>
                     <a href="./OurProducts.html">Our Products</a>
                     <a href="./ContuctUs.html">Contact Us</a>
                     <a href="./AboutUs.html">About Us</a>
                     <a href="./enquiry.html">Enquiry</a>
+                </span>
                 </nav>
             </div>
+            <h1 style="text-align: center;">
+                <span style="background-color: white;">Contact Our Team</span>
+            </h1>
+            <p style="text-align: center;">
+                <span style="background-color: white;">Feel free to reach out to us about any questions, comments you have on our website</span>
+            </p>
         </header>
         <main>
-            <h2 style="text-align: center; color: rgb(0, 174, 255);">Registration Form:</h2>
-            <form action="" method="post">
-                <table bgcolor="red" width="25%" >
-                    <!--Textbox-->
-                    <tr>
-                        <td width="100px">Name:</td>
-                        <td><input type="text" name="name" placeholder="Enter your name" required></td>
-                    </tr>
-                    <tr>
-                        <td width="100px">SurName:</td>
-                        <td><input type="text" name="surname" placeholder="Enter your surname" required></td>
-                    </tr>
-                    <!--Dropdown-->
-                    <tr>
-                        <td width="100px">City:</td>
-                        <td>
-                            <select name="City">
-                                <option>--Select</option>
-                                <option>Durban</option>
-                                <option>Cape Town</option>
-                                <option>Johannesburg</option>
-                                <option>Polokane</option>
-                                <option>Mbombela</option>
-                                <option>Nelspruit</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <!--Radio Buttons-->
-                    <tr>
-                        <td width="100">Gender:</td>
-                        <td><input type="radio" name="Male" value="Male">Male</td>
-                    </tr>
-                    <tr>  
-                        <td width="100"></td>
-                        <td><input type="radio" name="female" value="female">Female</td>
-                    </tr>
-                    <!--Checbox-->
-                    <tr>
-                        <td width="100">Where did you hear about us</td>
-                        <td><input type="checkbox" checked="checked" name="Television" value="Television">Television</td>
-                    </tr>
-                    <tr>
-                        <td width="100"></td>    
-                        <td><input type="checkbox" name="Newspaper" value="Newspaper">Newspaper</td>
-                    </tr>
-                    <tr>
-                        <td width="100" ></td>
-                        <td><input type="checkbox" name="internet" value="internet">Internet</td>
-                    </tr>
-                    <!--Attachent-->
-                    <tr>
-                        <td width="100">Attachent</td>
-                        <td><input type="file" name="files"></td>
-                    </tr>
-                    <!--Text area-->
-                    <tr>
-                        <td wibth="100">Comments:</td>
-                        <td>
-                            <textarea rows="5" cols="25">Comments here:</textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="100px"></td>
-                        <td><input type="submit" name="submit" value="Submit"></td>
-                    </tr>
-                </table>
-            </form>
+            <!--Business information-->
+            <section style="text-align: center;">
+                <h2>
+                    <span style="background-color: white;">Our contact information</span>
+                </h2>
+                <p>
+                    <span style="background-color: white;">
+                        <strong>Email:</strong>
+                    </span>
+                    <h3><span style="background-color: white;">allstargas@gmail.com</h3>
+                    </span>
+                </p>
+                <p>
+                    <span style="background-color: white;">
+                        <strong>Phone</strong>
+                    </span>
+                        <h3><span style="background-color: white;">+27 12 345 6789</span></h3>
+                </p>
+            </section>
+            <section id="contact" style="text-align: center;">
+                <!--map-->
+                <h2><span style="background-color: white;">Our Location</span></h2>
+                <div style="width: 100%; height: 400px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3068.351393882516!2d29.428302549968212!3d-23.85749598701115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDUxJzA0LjgiUyAyOcKwMjUnMDIuMyJF!5e0!3m2!1sen!2sza!4v1756192120776!5m2!1sen!2sza" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+            <section style="color: white;">
+                <h2>Send a message</h2>
+                <form action="" method="post">
+            <table>
+                <!--Textbox-->
+                <tr>
+                    <td width="100px" style="color: white;">Name:</td>
+                    <td><input type="text" name="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td width="100px" style="color: white;">SurName:</td>
+                    <td><input type="text" name="surname" placeholder="Enter your surname" required></td>
+                </tr>
+                <!--Selection-->
+                <tr>
+                    <td width="100px" style="color: white;">City:</td>
+                    <td>
+                        <select name="City">
+                            <option>--Select</option>
+                            <option>Durban</option>
+                            <option>Cape Town</option>
+                            <option>Johannesburg</option>
+                            <option>Polokane</option>
+                            <option>Mbombela</option>
+                            <option>Nelspruit</option>  
+                        </select>
+                    </td>
+                </tr>
+                <!--Text area-->
+                <tr>
+                    <td wibth="100" style="color: white;">Comments:</td>
+                    <td>
+                        <textarea rows="5" cols="25">Comments here:</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100px"></td>
+                    <td><input type="submit" name="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+            </section>
             <footer style="text-align: center;color: white;">
                 <p>&copy;2025 All Star Gas Station</p>
             </footer>
