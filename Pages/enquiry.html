@@ -19,5 +19,50 @@
             </span>
             </nav>
         </header>
+        <main>
+            <form action="" method="post">
+                    <table style="align-items: center; background-color: white;">
+                        <!--Textbox-->
+                        <tr>
+                            <td width="100px" style="color: rgb(0, 0, 0);">Name:</td>
+                            <td><input type="text" name="name" placeholder="Enter your name" required></td>
+                        </tr>
+                        <tr>
+                            <td width="100px" style="color: rgb(0, 0, 0);">SurName:</td>
+                            <td><input type="text" name="surname" placeholder="Enter your surname" required></td>
+                        </tr>
+                        <tr>
+                            <td width="100px" style="color: rgb(0, 0, 0);">Email</td>
+                            <td><input type="email" name="email" placeholder="Enter your email" required></td>
+                        </tr>
+                        <!--Selection-->
+                        <tr>
+                            <td width="100px" style="color: rgb(0, 0, 0);">City:</td>
+                            <td>
+                                <select name="City">
+                                    <option>--Select</option>
+                                    <option>Durban</option>
+                                    <option>Cape Town</option>
+                                    <option>Johannesburg</option>
+                                    <option>Polokane</option>
+                                    <option>Mbombela</option>
+                                    <option>Nelspruit</option>  
+                                </select>
+                            </td>
+                        </tr>
+                        <!--Text area-->
+                        <tr>
+                            <td wibth="100" style="color: rgb(0, 0, 0);">Comments:</td>
+                            <td>
+                                <textarea rows="5" cols="25">Comments here:</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="100px"></td>
+                            <td><input type="submit" name="submit" value="Submit"></td>
+                        </tr>
+                    </table>
+                </form>
+        </main>
     </body>
 </html>
