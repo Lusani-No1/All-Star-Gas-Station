@@ -3,64 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Enquiry Form</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-    <body>
-        <header>
-            <!--Navigation-->
-            <nav class="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="./OurProducts.html">Our Products</a>
-                <a href="./ContuctUs.html">Contact Us</a>
-                <a href="./AboutUs.html">About Us</a>
-                <a href="./enquiry.html">Enquiry</a>
-            </nav>
-        </header>
-        <main>
+<body>
+    <header id="enquiry-sec-1">
+        <nav class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="./OurProducts.html">Our Products</a>
+            <a href="./ContactUs.html">Contact Us</a>
+            <a href="./AboutUs.html">About Us</a>
+            <a href="./enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+
+    <main id="enquiry-sec-2">
+        <section class="form-wrapper">
+            <h1>Send Us Your Enquiry</h1>
             <form action="" method="post">
-                    <table >
-                        <!--Textbox-->
-                        <tr>
-                            <td width="100px" >Name:</td>
-                            <td><input type="text" name="name" placeholder="Enter your name" required></td>
-                        </tr>
-                        <tr>
-                            <td width="100px">SurName:</td>
-                            <td><input type="text" name="surname" placeholder="Enter your surname" required></td>
-                        </tr>
-                        <tr>
-                            <td width="100px">Email</td>
-                            <td><input type="email" name="email" placeholder="Enter your email" required></td>
-                        </tr>
-                        <!--Selection-->
-                        <tr>
-                            <td width="100px">City:</td>
-                            <td>
-                                <select name="City">
-                                    <option>--Select</option>
-                                    <option>Durban</option>
-                                    <option>Cape Town</option>
-                                    <option>Johannesburg</option>
-                                    <option>Polokane</option>
-                                    <option>Mbombela</option>
-                                    <option>Nelspruit</option>  
-                                </select>
-                            </td>
-                        </tr>
-                        <!--Text area-->
-                        <tr>
-                            <td wibth="100">Comments:</td>
-                            <td>
-                                <textarea rows="5" cols="25">Comments here:</textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="100px"></td>
-                            <td><input type="submit" name="submit" value="Submit"></td>
-                        </tr>
-                    </table>
-                </form>
-        </main>
-    </body>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Enter your name" required>
+
+                <label for="surname">Surname:</label>
+                <input type="text" name="surname" placeholder="Enter your surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Enter your email" required>
+
+                <label for="city">City:</label>
+                <select name="City" required>
+                    <option value="">--Select--</option>
+                    <option>Durban</option>
+                    <option>Cape Town</option>
+                    <option>Johannesburg</option>
+                    <option>Polokwane</option>
+                    <option>Mbombela</option>
+                    <option>Nelspruit</option>
+                </select>
+
+                <label for="comments">Comments:</label>
+                <textarea name="comments" rows="5" placeholder="Your message here..." required></textarea>
+
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
 </html>
