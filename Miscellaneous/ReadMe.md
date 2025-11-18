@@ -21,7 +21,8 @@ This website is designed to provide users with:
 
  Folder Structure
 project-root/ 
-│ ├── index.html 
+│ ├── index.html
+| ├──scripst.js
 ├── Pages/ 
 │   ├── OurProducts.html 
 │   ├── AboutUs.html 
@@ -52,6 +53,23 @@ You can view the live version of the site here:
 
 2 Open index.html in your browser.
 3 To edit styles, modify css/styles.css.
+
+Enhancing Functionality & SEOThis project includes advanced JavaScript features and SEO best practices:JavaScript Features- Form validation 
+with real-time feedback (name, surname, email, comments)
+- Scroll-to-top button for improved navigation
+- Responsive enquiry and contact forms with custom alerts
+- Modular JS file (scripts.js) for maintainability
+SEO Best Practices- Semantic HTML5 structure
+- Descriptive title tags and meta descriptions
+- Optimized image alt text and filenames
+- Clean URL structure and internal linking
+- Mobile responsiveness and fast load times
+ChangelogPart 3 Updates- Implemented advanced JavaScript validation for forms
+- Added scroll-to-top button for better UX
+- Improved accessibility with semantic HTML and ARIA labels
+- Enhanced SEO with optimized meta tags and internal linking
+- Refactored CSS for better responsiveness on mobile devices
+- Updated README with new sections and live demo link
 
 Author =Lusani Mudau
 Founder & Developer
